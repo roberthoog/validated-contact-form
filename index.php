@@ -50,7 +50,7 @@ if ( ! empty( $_POST ) ) {
 <html>
 <head>
     <meta charset="UTF-8">
-    <title ="Validated Contact form"></title>
+    <title="Validated Contact form"></title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
@@ -59,11 +59,12 @@ if ( ! empty( $_POST ) ) {
 </head>
 
 
-<section class="section id="contact-form">
+<section class="section" id="contact-form">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1>Enter message</h1>
+                <p>Källkod: <a href="">
                 <?php if (! empty($errors ) ) : ?>
                 <div class="errors">
                     <p class="bg-danger">
@@ -100,7 +101,7 @@ if ( ! empty( $_POST ) ) {
                     </div>
 
                 </form>
-
+				
             </div>
         </div>
     </div>

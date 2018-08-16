@@ -1,0 +1,12 @@
+body, h1,p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+input, textarea, button  {
+    border-radius: 8px!important;
+    border-color: #e1b137!important;
+}
+.errors p,
+.success p {
+    padding: 15px;
+}

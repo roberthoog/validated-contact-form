@@ -64,7 +64,7 @@ if ( ! empty( $_POST ) ) {
         <div class="row">
             <div class="col-md-12">
                 <h1>Enter message</h1>
-                <p>Källkod: <a href="https://www.insiteweb.se/contact-form/"> GitHub</a>
+                <p>Källkod: <a href="https://github.com/roberthoog/validated-contact-form/blob/master/index.php"> GitHub</a>
                 <?php if (! empty($errors ) ) : ?>
                 <div class="errors">
                     <p class="bg-danger">
